@@ -28,7 +28,7 @@ docker-compose up --build
 
 ✅ Comandos úteis
 
-    Gerar migrations:
+Gerar migrations:
 
 dotnet ef migrations add NomeMigration --project ClienteCadastro.Infrastructure --startup-project ClienteCadastro
 
