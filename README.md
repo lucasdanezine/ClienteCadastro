@@ -21,3 +21,6 @@ ClienteCadastro
 ├── ClienteCadastro.Domain
 ├── ClienteCadastro.Infrastructure
 └── docker-compose.yml
+
+Após clonar o repositório Suba o ambiente:
+docker-compose up --build
