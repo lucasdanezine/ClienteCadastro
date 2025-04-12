@@ -24,3 +24,14 @@ ClienteCadastro
 
 Após clonar o repositório Suba o ambiente:
 docker-compose up --build
+
+
+✅ Comandos úteis
+
+    Gerar migrations:
+
+dotnet ef migrations add NomeMigration --project ClienteCadastro.Infrastructure --startup-project ClienteCadastro
+
+Aplicar migrations:
+
+dotnet ef database update --project ClienteCadastro.Infrastructure --startup-project ClienteCad
